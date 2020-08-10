@@ -1,0 +1,56 @@
+stops:
+  - id: 1
+    name: Helyi autóbusz-állomás
+    latitude: 48.087952
+    longitude: 19.793359
+    direction: 0.0
+  - id: 2
+    name: Külső pályaudvar bejárat út
+    latitude: 48.088837
+    longitude: 19.793993
+    direction: 0.0
+  - id: 3
+    name: Tűzhelygyár alsó
+    latitude: 48.092617
+    longitude: 19.797891
+    direction: 0.0
+  - id: 4
+    name: Tűzhelygyár
+    latitude: 48.094882
+    longitude: 19.800975
+    direction: 0.0
+  - id: 5
+    name: ÉMÁSZ
+    latitude: 48.095788
+    longitude: 19.802730
+    direction: 0.0
+  - id: 6
+    name: Forgách Antal út 55.
+    latitude: 48.092589
+    longitude: 19.806372
+    direction: 0.0
+  - id: 7
+    name: Forgáchtelep, Szövetkezeti italbolt
+    latitude: 48.089124
+    longitude: 19.809542
+    direction: 0.0
+  - id: 8
+    name: Forgáchtelep
+    latitude: 48.085125
+    longitude: 19.810432
+    direction: 0.0
+  - id: 9
+    name: Somlyó, hegyalja
+    latitude: 48.084555
+    longitude: 19.814197
+    direction: 0.0
+  - id: 10
+    name: Somlyóbánya, alsó
+    latitude: 48.083670
+    longitude: 19.818495
+    direction: 0.0
+  - id: 11
+    name: Somlyóbánya
+    latitude: 48.086565
+    longitude: 19.825109
+    direction: 0.0

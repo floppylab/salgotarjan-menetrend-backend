@@ -1,0 +1,27 @@
+lines:
+- id: 1
+  number: "2A"
+  description: "Helyi autóbusz-állomás - Somlyóbánya"
+  stopDelays:
+  - stop: 1
+    minutes: 0
+  - stop: 2
+    minutes: 2
+  - stop: 3
+    minutes: 4
+  - stop: 4
+    minutes: 5
+  - stop: 5
+    minutes: 6
+  - stop: 6
+    minutes: 7
+  - stop: 7
+    minutes: 9
+  - stop: 8
+    minutes: 10
+  - stop: 9
+    minutes: 11
+  - stop: 10
+    minutes: 13
+  - stop: 11
+    minutes: 15
