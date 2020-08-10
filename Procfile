@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/guide-backend-1.0.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/salgotarjan-menetrend-backend-backend-1.0.0.jar
