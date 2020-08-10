@@ -20,3 +20,9 @@ departures:
 - line: 1
   time: "18:15"
   day: "ALL_DAYS"
+- line: 1
+  time: "22:48"
+  day: "ALL_DAYS"
+- line: 1
+  time: "23:59"
+  day: "WORK_DAY"
