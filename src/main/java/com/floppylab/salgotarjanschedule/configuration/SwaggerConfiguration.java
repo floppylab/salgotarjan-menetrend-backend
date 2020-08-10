@@ -28,11 +28,11 @@ public class SwaggerConfiguration {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "Karancs-Medves Kalauz REST API",
-                "Karancs-Medves Kalauz alkalmazás REST APIja",
+                "Salgótarján helyi járati menetrend",
+                "Salgótarján helyi járati menetrend alkalmazás REST APIja",
                 "1.0.0",
-                "https://www.karancsmedveskalauz.hu/aszf",
+                "TODO",
                 new Contact("Dér Leonóra", "https://floppylab.com", "leonora.der@floppylab.com"),
-                "GNU AGPLv3", "https://www.karancsmedveskalauz.hu/licenc", Collections.emptyList());
+                "MIT", "https://github.com/floppylab/salgotarjan-menetrend-backend/blob/master/LICENSE", Collections.emptyList());
     }
 }
