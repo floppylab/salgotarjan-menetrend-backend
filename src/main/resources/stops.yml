@@ -1,56 +1,1267 @@
 stops:
-  - id: 1
+-
+    id: 17
+    name: Acélgyári úti iskola
+    latitude: 48.110293
+    longitude: 19.814783
+    direction: 0
+-
+    id: 135
+    name: Acélgyári úti iskola
+    latitude: 48.111518
+    longitude: 19.816543
+    direction: 0
+-
+    id: 47
+    name: Arany János Általános Iskola
+    latitude: 48.075796
+    longitude: 19.784271
+    direction: 0
+-
+    id: 161
+    name: Arany János Általános Iskola
+    latitude: 48.076054
+    longitude: 19.784391
+    direction: 0
+-
+    id: 99
+    name: Autószalonok
+    latitude: 48.053576
+    longitude: 19.779967
+    direction: 0
+-
+    id: 196
+    name: Autószalonok
+    latitude: 48.054214
+    longitude: 19.780091
+    direction: 0
+-
+    id: 60
+    name: Baglyasalja, általános iskola
+    latitude: 48.092144
+    longitude: 19.777950
+    direction: 0
+-
+    id: 172
+    name: Baglyasalja, általános iskola
+    latitude: 48.091747
+    longitude: 19.778019
+    direction: 0
+-
+    id: 59
+    name: Baglyasalja, élelmiszerbolt
+    latitude: 48.089002
+    longitude: 19.780498
+    direction: 0
+-
+    id: 171
+    name: Baglyasalja, élelmiszerbolt
+    latitude: 48.088285
+    longitude: 19.780868
+    direction: 0
+-
+    id: 54
+    name: Baglyasalja, felüljáró
+    latitude: 48.085519
+    longitude: 19.785471
+    direction: 0
+-
+    id: 55
+    name: Baglyasalja, felüljáró
+    latitude: 48.085333
+    longitude: 19.787204
+    direction: 0
+-
+    id: 167
+    name: Baglyasalja, felüljáró
+    latitude: 48.085325
+    longitude: 19.785814
+    direction: 0
+-
+    id: 168
+    name: Baglyasalja, felüljáró
+    latitude: 48.084985
+    longitude: 19.786828
+    direction: 0
+-
+    id: 63
+    name: Baglyasalja, FMSZ
+    latitude: 48.100496
+    longitude: 19.772591
+    direction: 0
+-
+    id: 175
+    name: Baglyasalja, FMSZ
+    latitude: 48.100116
+    longitude: 19.772559
+    direction: 0
+-
+    id: 64
+    name: Baglyasalja, Katalintelep
+    latitude: 48.103677
+    longitude: 19.773547
+    direction: 0
+-
+    id: 62
+    name: Baglyasalja, orvosi rendelő
+    latitude: 48.096842
+    longitude: 19.773804
+    direction: 0
+-
+    id: 174
+    name: Baglyasalja, orvosi rendelő
+    latitude: 48.097006
+    longitude: 19.773353
+    direction: 0
+-
+    id: 61
+    name: Baglyasalja, sporttelep
+    latitude: 48.095029
+    longitude: 19.775676
+    direction: 0
+-
+    id: 173
+    name: Baglyasalja, sporttelep
+    latitude: 48.094807
+    longitude: 19.775735
+    direction: 0
+-
+    id: 58
+    name: Baglyasaljai elágazó
+    latitude: 48.084981
+    longitude: 19.792842
+    direction: 0
+-
+    id: 170
+    name: Baglyasaljai elágazó
+    latitude: 48.084845
+    longitude: 19.792600
+    direction: 0
+-
+    id: 52
+    name: Bajcsy-Zsilinszky út 14.
+    latitude: 48.096892
+    longitude: 19.797730
+    direction: 0
+-
+    id: 165
+    name: Bajcsy-Zsilinszky út 14.
+    latitude: 48.097358
+    longitude: 19.797838
+    direction: 0
+-
+    id: 73
+    name: Béketelep
+    latitude: 48.124282
+    longitude: 19.805684
+    direction: 0
+-
+    id: 182
+    name: Béketelep
+    latitude: 48.124593
+    longitude: 19.805989
+    direction: 0
+-
+    id: 14
+    name: Bem út
+    latitude: 48.101513
+    longitude: 19.805620
+    direction: 0
+-
+    id: 68
+    name: Bereczki Máté út 39.
+    latitude: 48.107317
+    longitude: 19.787558
+    direction: 0
+-
+    id: 72
+    name: Beszterce-lakótelep
+    latitude: 48.128933
+    longitude: 19.811253
+    direction: 0
+-
+    id: 181
+    name: Beszterce-lakótelep
+    latitude: 48.127748
+    longitude: 19.810190
+    direction: 0
+-
+    id: 120
+    name: Beszterce-lakótelepi iskola
+    latitude: 48.129853
+    longitude: 19.814144
+    direction: 0
+-
+    id: 96
+    name: Budapesti úti rendelő
+    latitude: 48.071353
+    longitude: 19.783959
+    direction: 0
+-
+    id: 193
+    name: Budapesti úti rendelő
+    latitude: 48.071255
+    longitude: 19.783678
+    direction: 0
+-
+    id: 69
+    name: Campingtelep
+    latitude: 48.131801
+    longitude: 19.822904
+    direction: 0
+-
+    id: 30
+    name: Csokonai út, szakközépiskola
+    latitude: 48.075079
+    longitude: 19.792392
+    direction: 0
+-
+    id: 146
+    name: Csokonai út, szakközépiskola
+    latitude: 48.074165
+    longitude: 19.792123
+    direction: 0
+-
+    id: 87
+    name: Damjanich út 9.
+    latitude: 48.100811
+    longitude: 19.808201
+    direction: 0
+-
+    id: 48
+    name: Déryné út
+    latitude: 48.078122
+    longitude: 19.779029
+    direction: 0
+-
+    id: 162
+    name: Déryné út
+    latitude: 48.078244
+    longitude: 19.778411
+    direction: 0
+-
+    id: 74
+    name: Élelmiszerbolt
+    latitude: 48.119788
+    longitude: 19.806682
+    direction: 0
+-
+    id: 183
+    name: Élelmiszerbolt
+    latitude: 48.120608
+    longitude: 19.805786
+    direction: 0
+-
+    id: 34
+    name: ÉMÁSZ
+    latitude: 48.095799
+    longitude: 19.802728
+    direction: 0
+-
+    id: 149
+    name: ÉMÁSZ
+    latitude: 48.095985
+    longitude: 19.802669
+    direction: 0
+-
+    id: 53
+    name: Eperjestelep
+    latitude: 48.093667
+    longitude: 19.794172
+    direction: 0
+-
+    id: 166
+    name: Eperjestelep
+    latitude: 48.094294
+    longitude: 19.794644
+    direction: 0
+-
+    id: 123
+    name: Erdészház
+    latitude: 48.151210
+    longitude: 19.861828
+    direction: 0
+-
+    id: 214
+    name: Erdészház
+    latitude: 48.151493
+    longitude: 19.861560
+    direction: 0
+-
+    id: 121
+    name: Eresztvény
+    latitude: 48.155404
+    longitude: 19.852092
+    direction: 0
+-
+    id: 212
+    name: Eresztvény
+    latitude: 48.155716
+    longitude: 19.852124
+    direction: 0
+-
+    id: 24
+    name: Erőmű
+    latitude: 48.113628
+    longitude: 19.862778
+    direction: 0
+-
+    id: 142
+    name: Erőmű
+    latitude: 48.113818
+    longitude: 19.862719
+    direction: 0
+-
+    id: 80
+    name: Fáy András körút 20.
+    latitude: 48.117241
+    longitude: 19.801972
+    direction: 0
+-
+    id: 78
+    name: Fáy András körút 90.
+    latitude: 48.118087
+    longitude: 19.803684
+    direction: 0
+-
+    id: 67
+    name: Felsőidegér 1.
+    latitude: 48.106475
+    longitude: 19.791093
+    direction: 0
+-
+    id: 35
+    name: Forgách Antal út 55.
+    latitude: 48.092610
+    longitude: 19.806371
+    direction: 0
+-
+    id: 150
+    name: Forgách Antal út 55.
+    latitude: 48.093051
+    longitude: 19.806146
+    direction: 0
+-
+    id: 37
+    name: Forgáchtelep
+    latitude: 48.085132
+    longitude: 19.810426
+    direction: 0
+-
+    id: 152
+    name: Forgáchtelep
+    latitude: 48.085243
+    longitude: 19.810405
+    direction: 0
+-
+    id: 36
+    name: Forgáchtelep, szövetkezeti italbolt
+    latitude: 48.089135
+    longitude: 19.809541
+    direction: 0
+-
+    id: 151
+    name: Forgáchtelep, szövetkezeti italbolt
+    latitude: 48.090217
+    longitude: 19.809515
+    direction: 0
+-
+    id: 15
+    name: Fő tér
+    latitude: 48.104472
+    longitude: 19.807739
+    direction: 0
+-
+    id: 133
+    name: Fő tér
+    latitude: 48.104906
+    longitude: 19.808088
+    direction: 0
+-
+    id: 41
+    name: Füleki úti körforgalom
+    latitude: 48.108764
+    longitude: 19.811376
+    direction: 0
+-
+    id: 156
+    name: Füleki úti körforgalom
+    latitude: 48.108681
+    longitude: 19.811081
+    direction: 0
+-
+    id: 57
+    name: Gorkijtelep
+    latitude: 48.072547
+    longitude: 19.780647
+    direction: 0
+-
+    id: 56
+    name: Gorkijtelepi elágazó
+    latitude: 48.074562
+    longitude: 19.782688
+    direction: 0
+-
+    id: 169
+    name: Gorkijtelepi elágazó
+    latitude: 48.074865
+    longitude: 19.782584
+    direction: 0
+-
+    id: 1
     name: Helyi autóbusz-állomás
-    latitude: 48.087952
-    longitude: 19.793359
-    direction: 0.0
-  - id: 2
+    latitude: 48.087872
+    longitude: 19.793500
+    direction: 0
+-
+    id: 49
+    name: Hősök út, Frigovill
+    latitude: 48.081534
+    longitude: 19.774646
+    direction: 0
+-
+    id: 163
+    name: Hősök út, Frigovill
+    latitude: 48.081645
+    longitude: 19.774291
+    direction: 0
+-
+    id: 50
+    name: Hősök úti forduló
+    latitude: 48.082982
+    longitude: 19.772977
+    direction: 0
+-
+    id: 88
+    name: Hunyadi körút 3.
+    latitude: 48.099378
+    longitude: 19.811049
+    direction: 0
+-
+    id: 108
+    name: Ipari Park, forduló
+    latitude: 48.042473
+    longitude: 19.798045
+    direction: 0
+-
+    id: 107
+    name: Ipari Park, MHG
+    latitude: 48.043513
+    longitude: 19.795578
+    direction: 0
+-
+    id: 201
+    name: Ipari Park, MHG
+    latitude: 48.043632
+    longitude: 19.795685
+    direction: 0
+-
+    id: 104
+    name: Ipartelep, bejárati út
+    latitude: 48.048158
+    longitude: 19.784688
+    direction: 0
+-
+    id: 200
+    name: Ipartelep, bejárati út
+    latitude: 48.048527
+    longitude: 19.784473
+    direction: 0
+-
+    id: 81
+    name: Kercseg út 35.
+    latitude: 48.115196
+    longitude: 19.803416
+    direction: 0
+-
+    id: 79
+    name: Kiskörúti elágazó
+    latitude: 48.119236
+    longitude: 19.801387
+    direction: 0
+-
+    id: 18
+    name: Kohász Művelődési Központ
+    latitude: 48.113230
+    longitude: 19.820604
+    direction: 0
+-
+    id: 136
+    name: Kohász Művelődési Központ
+    latitude: 48.112825
+    longitude: 19.819332
+    direction: 0
+-
+    id: 102
+    name: Kotyháza
+    latitude: 48.055498
+    longitude: 19.759598
+    direction: 0
+-
+    id: 199
+    name: Kotyháza
+    latitude: 48.055376
+    longitude: 19.759448
+    direction: 0
+-
+    id: 101
+    name: Kotyháza, bejárati út
+    latitude: 48.051170
+    longitude: 19.763096
+    direction: 0
+-
+    id: 198
+    name: Kotyháza, bejárati út
+    latitude: 48.050915
+    longitude: 19.762914
+    direction: 0
+-
+    id: 103
+    name: Kotyháza, forduló
+    latitude: 48.056638
+    longitude: 19.756873
+    direction: 0
+-
+    id: 98
+    name: Kotyházatelep
+    latitude: 48.059528
+    longitude: 19.781915
+    direction: 0
+-
+    id: 195
+    name: Kotyházatelep
+    latitude: 48.059528
+    longitude: 19.782237
+    direction: 0
+-
+    id: 122
+    name: Kőbánya
+    latitude: 48.152978
+    longitude: 19.857677
+    direction: 0
+-
+    id: 213
+    name: Kőbánya
+    latitude: 48.153239
+    longitude: 19.857564
+    direction: 0
+-
+    id: 66
+    name: Kővár út 36.
+    latitude: 48.106643
+    longitude: 19.797026
+    direction: 0
+-
+    id: 178
+    name: Kővár út 42.
+    latitude: 48.106693
+    longitude: 19.796693
+    direction: 0
+-
+    id: 21
+    name: Köztemető
+    latitude: 48.117453
+    longitude: 19.838725
+    direction: 0
+-
+    id: 139
+    name: Köztemető
+    latitude: 48.117933
+    longitude: 19.837952
+    direction: 0
+-
+    id: 10
     name: Külső pályaudvar bejárat út
-    latitude: 48.088837
-    longitude: 19.793993
-    direction: 0.0
-  - id: 3
-    name: Tűzhelygyár alsó
-    latitude: 48.092617
-    longitude: 19.797891
-    direction: 0.0
-  - id: 4
+    latitude: 48.088816
+    longitude: 19.793995
+    direction: 0
+-
+    id: 129
+    name: Külső pályaudvar bejárat út
+    latitude: 48.087873
+    longitude: 19.793496
+    direction: 0
+-
+    id: 84
+    name: Losonci út 22.
+    latitude: 48.109817
+    longitude: 19.808909
+    direction: 0
+-
+    id: 189
+    name: Losonci út 22.
+    latitude: 48.109781
+    longitude: 19.808780
+    direction: 0
+-
+    id: 82
+    name: Losonci út 29/A.
+    latitude: 48.115014
+    longitude: 19.807540
+    direction: 0
+-
+    id: 187
+    name: Losonci út 29/A.
+    latitude: 48.115035
+    longitude: 19.807395
+    direction: 0
+-
+    id: 77
+    name: Losonci út 61.
+    latitude: 48.115762
+    longitude: 19.803716
+    direction: 0
+-
+    id: 186
+    name: Losonci út 61.
+    latitude: 48.115264
+    longitude: 19.804156
+    direction: 0
+-
+    id: 100
+    name: Lucfalvai út
+    latitude: 48.052228
+    longitude: 19.778610
+    direction: 0
+-
+    id: 197
+    name: Lucfalvai út
+    latitude: 48.052167
+    longitude: 19.779002
+    direction: 0
+-
+    id: 13
+    name: Megyeháza
+    latitude: 48.098955
+    longitude: 19.805562
+    direction: 0
+-
+    id: 132
+    name: Megyeháza
+    latitude: 48.099686
+    longitude: 19.805443
+    direction: 0
+-
+    id: 94
+    name: Meredek út 12.
+    latitude: 48.099174
+    longitude: 19.808061
+    direction: 0
+-
+    id: 86
+    name: Meredek út 5.
+    latitude: 48.102871
+    longitude: 19.807632
+    direction: 0
+-
+    id: 191
+    name: Meredek út 5.
+    latitude: 48.102789
+    longitude: 19.807744
+    direction: 0
+-
+    id: 20
+    name: Művésztelep
+    latitude: 48.118147
+    longitude: 19.830667
+    direction: 0
+-
+    id: 138
+    name: Művésztelep
+    latitude: 48.118412
+    longitude: 19.830774
+    direction: 0
+-
+    id: 51
+    name: Piac (Bajcsy Zsilinszky út)
+    latitude: 48.102319
+    longitude: 19.802401
+    direction: 0
+-
+    id: 164
+    name: Piac (Bajcsy Zsilinszky út)
+    latitude: 48.102789
+    longitude: 19.802589
+    direction: 0
+-
+    id: 65
+    name: Piac (Kővár út)
+    latitude: 48.104082
+    longitude: 19.801671
+    direction: 0
+-
+    id: 176
+    name: Piac (Kővár út)
+    latitude: 48.103942
+    longitude: 19.801693
+    direction: 0
+-
+    id: 22
+    name: Pintértelep
+    latitude: 48.115941
+    longitude: 19.847076
+    direction: 0
+-
+    id: 140
+    name: Pintértelep
+    latitude: 48.115873
+    longitude: 19.847828
+    direction: 0
+-
+    id: 85
+    name: Postai aluljáró
+    latitude: 48.105078
+    longitude: 19.806124
+    direction: 0
+-
+    id: 190
+    name: Postai aluljáró
+    latitude: 48.105844
+    longitude: 19.806891
+    direction: 0
+-
+    id: 75
+    name: Rendelőintézet
+    latitude: 48.116822
+    longitude: 19.809321
+    direction: 0
+-
+    id: 184
+    name: Rendelőintézet
+    latitude: 48.116586
+    longitude: 19.809359
+    direction: 0
+-
+    id: 25
+    name: Rónai elágazó
+    latitude: 48.117256
+    longitude: 19.865284
+    direction: 0
+-
+    id: 143
+    name: Rónai elágazó
+    latitude: 48.117098
+    longitude: 19.864999
+    direction: 0
+-
+    id: 31
+    name: Rózsafa, bejárati út
+    latitude: 48.071480
+    longitude: 19.791163
+    direction: 0
+-
+    id: 147
+    name: Rózsafa, bejárati út
+    latitude: 48.071685
+    longitude: 19.791362
+    direction: 0
+-
+    id: 105
+    name: S-Top áruház
+    latitude: 48.044471
+    longitude: 19.790814
+    direction: 0
+-
+    id: 16
+    name: Salgó út
+    latitude: 48.109530
+    longitude: 19.813021
+    direction: 0
+-
+    id: 134
+    name: Salgó út
+    latitude: 48.109552
+    longitude: 19.812769
+    direction: 0
+-
+    id: 125
+    name: Salgóbánya, FMSZ
+    latitude: 48.144717
+    longitude: 19.859811
+    direction: 0
+-
+    id: 19
+    name: Salgói kapu
+    latitude: 48.117116
+    longitude: 19.827170
+    direction: 0
+-
+    id: 137
+    name: Salgói kapu
+    latitude: 48.116987
+    longitude: 19.826118
+    direction: 0
+-
+    id: 124
+    name: Salgói újbánya
+    latitude: 48.146775
+    longitude: 19.862053
+    direction: 0
+-
+    id: 215
+    name: Salgói újbánya
+    latitude: 48.147054
+    longitude: 19.862161
+    direction: 0
+-
+    id: 40
+    name: Solymóbánya
+    latitude: 48.086569
+    longitude: 19.825115
+    direction: 0
+-
+    id: 155
+    name: Solymóbánya
+    latitude: 48.086619
+    longitude: 19.825238
+    direction: 0
+-
+    id: 39
+    name: Solymóbánya, alsó
+    latitude: 48.083670
+    longitude: 19.818506
+    direction: 0
+-
+    id: 154
+    name: Solymóbánya, alsó
+    latitude: 48.083505
+    longitude: 19.818232
+    direction: 0
+-
+    id: 43
+    name: Solymóbánya, üdülőtelep
+    latitude: 48.091589
+    longitude: 19.832775
+    direction: 0
+-
+    id: 158
+    name: Solymóbánya, üdülőtelep
+    latitude: 48.091650
+    longitude: 19.832678
+    direction: 0
+-
+    id: 42
+    name: Solymóbánya, üdülőtelep alsó
+    latitude: 48.087698
+    longitude: 19.828644
+    direction: 0
+-
+    id: 157
+    name: Solymóbánya, üdülőtelep alsó
+    latitude: 48.087604
+    longitude: 19.828296
+    direction: 0
+-
+    id: 44
+    name: Solymóbánya, üdülőtelep felső
+    latitude: 48.094151
+    longitude: 19.834475
+    direction: 0
+-
+    id: 159
+    name: Solymóbánya, üdülőtelep felső
+    latitude: 48.093954
+    longitude: 19.834159
+    direction: 0
+-
+    id: 45
+    name: Somlyó, forduló
+    latitude: 48.095204
+    longitude: 19.836074
+    direction: 0
+-
+    id: 38
+    name: Somlyó, hegyalja
+    latitude: 48.084559
+    longitude: 19.814198
+    direction: 0
+-
+    id: 153
+    name: Somlyó, hegyalja
+    latitude: 48.084659
+    longitude: 19.814670
+    direction: 0
+-
+    id: 118
+    name: Somoskő, bejárati út
+    latitude: 48.166246
+    longitude: 19.850413
+    direction: 0
+-
+    id: 210
+    name: Somoskő, bejárati út
+    latitude: 48.166214
+    longitude: 19.850203
+    direction: 0
+-
+    id: 119
+    name: Somoskő, községháza
+    latitude: 48.167728
+    longitude: 19.857526
+    direction: 0
+-
+    id: 211
+    name: Somoskő, községháza
+    latitude: 48.167810
+    longitude: 19.857622
+    direction: 0
+-
+    id: 117
+    name: Somoskői elágazó
+    latitude: 48.160843
+    longitude: 19.840955
+    direction: 0
+-
+    id: 209
+    name: Somoskői elágazó
+    latitude: 48.160851
+    longitude: 19.841465
+    direction: 0
+-
+    id: 109
+    name: Somoskőújfalu, 94. sz. őrház
+    latitude: 48.140049
+    longitude: 19.814959
+    direction: 0
+-
+    id: 202
+    name: Somoskőújfalu, 94. sz. őrház
+    latitude: 48.141274
+    longitude: 19.814847
+    direction: 0
+-
+    id: 113
+    name: Somoskőújfalu, Ifjúság út
+    latitude: 48.161663
+    longitude: 19.827566
+    direction: 0
+-
+    id: 206
+    name: Somoskőújfalu, Ifjúság út
+    latitude: 48.161745
+    longitude: 19.827040
+    direction: 0
+-
+    id: 112
+    name: Somoskőújfalu, községháza
+    latitude: 48.161734
+    longitude: 19.821359
+    direction: 0
+-
+    id: 205
+    name: Somoskőújfalu, községháza
+    latitude: 48.161284
+    longitude: 19.820882
+    direction: 0
+-
+    id: 116
+    name: Somoskőújfalu, országhatár
+    latitude: 48.167552
+    longitude: 19.821525
+    direction: 0
+-
+    id: 115
+    name: Somoskőújfalu, somosi út
+    latitude: 48.165481
+    longitude: 19.821032
+    direction: 0
+-
+    id: 208
+    name: Somoskőújfalu, somosi út
+    latitude: 48.165255
+    longitude: 19.820860
+    direction: 0
+-
+    id: 110
+    name: Somoskőújfalu, Somosi út 22.
+    latitude: 48.149986
+    longitude: 19.816547
+    direction: 0
+-
+    id: 203
+    name: Somoskőújfalu, Somosi út 22.
+    latitude: 48.149785
+    longitude: 19.816622
+    direction: 0
+-
+    id: 114
+    name: Somoskőújfalu, Újtelep
+    latitude: 48.161362
+    longitude: 19.831530
+    direction: 0
+-
+    id: 207
+    name: Somoskőújfalu, Újtelep
+    latitude: 48.161509
+    longitude: 19.831509
+    direction: 0
+-
+    id: 111
+    name: Somoskőújfalu, vasútállomás
+    latitude: 48.154871
+    longitude: 19.816150
+    direction: 0
+-
+    id: 204
+    name: Somoskőújfalu, vasútállomás
+    latitude: 48.154978
+    longitude: 19.816048
+    direction: 0
+-
+    id: 83
+    name: Sportcentrum
+    latitude: 48.112890
+    longitude: 19.808098
+    direction: 0
+-
+    id: 188
+    name: Sportcentrum
+    latitude: 48.113083
+    longitude: 19.807519
+    direction: 0
+-
+    id: 70
+    name: Strandfürdő
+    latitude: 48.133416
+    longitude: 19.814412
+    direction: 0
+-
+    id: 71
+    name: Strandfürdő
+    latitude: 48.131601
+    longitude: 19.815715
+    direction: 0
+-
+    id: 179
+    name: Strandfürdő
+    latitude: 48.133577
+    longitude: 19.814256
+    direction: 0
+-
+    id: 180
+    name: Strandfürdő
+    latitude: 48.131987
+    longitude: 19.816697
+    direction: 0
+-
+    id: 128
+    name: Sugár út 126.
+    latitude: 48.054745
+    longitude: 19.786978
+    direction: 0
+-
+    id: 218
+    name: Sugár út 126.
+    latitude: 48.054917
+    longitude: 19.787139
+    direction: 0
+-
+    id: 126
+    name: Sugár út 32.
+    latitude: 48.062066
+    longitude: 19.787880
+    direction: 0
+-
+    id: 216
+    name: Sugár út 32.
+    latitude: 48.061245
+    longitude: 19.787950
+    direction: 0
+-
+    id: 127
+    name: Sugár út 96.
+    latitude: 48.057793
+    longitude: 19.786769
+    direction: 0
+-
+    id: 217
+    name: Sugár út 96.
+    latitude: 48.057649
+    longitude: 19.787124
+    direction: 0
+-
+    id: 97
+    name: Szécsényi útelágazó
+    latitude: 48.067473
+    longitude: 19.782987
+    direction: 0
+-
+    id: 194
+    name: Szécsényi útelágazó
+    latitude: 48.067379
+    longitude: 19.783202
+    direction: 0
+-
+    id: 76
+    name: Szent Lázár Kórház
+    latitude: 48.114423
+    longitude: 19.811291
+    direction: 0
+-
+    id: 185
+    name: Szent Lázár Kórház
+    latitude: 48.114040
+    longitude: 19.811172
+    direction: 0
+-
+    id: 93
+    name: Szerpentin út 10.
+    latitude: 48.097447
+    longitude: 19.806724
+    direction: 0
+-
+    id: 92
+    name: Szerpentin út 18.
+    latitude: 48.097841
+    longitude: 19.807937
+    direction: 0
+-
+    id: 91
+    name: Szerpentin út 32.
+    latitude: 48.097805
+    longitude: 19.808822
+    direction: 0
+-
+    id: 90
+    name: Szerpentin út 42.
+    latitude: 48.096752
+    longitude: 19.809632
+    direction: 0
+-
+    id: 89
+    name: Szerpentin út 52.
+    latitude: 48.098422
+    longitude: 19.811457
+    direction: 0
+-
+    id: 106
+    name: Szolgáltatóház
+    latitude: 48.044120
+    longitude: 19.793470
+    direction: 0
+-
+    id: 23
+    name: Tarjáni út 1.
+    latitude: 48.113513
+    longitude: 19.854571
+    direction: 0
+-
+    id: 141
+    name: Tarjáni út 1.
+    latitude: 48.113513
+    longitude: 19.855032
+    direction: 0
+-
+    id: 46
+    name: Tesco áruház
+    latitude: 48.077376
+    longitude: 19.789956
+    direction: 0
+-
+    id: 160
+    name: Tesco áruház
+    latitude: 48.077240
+    longitude: 19.790068
+    direction: 0
+-
+    id: 12
     name: Tűzhelygyár
     latitude: 48.094882
-    longitude: 19.800975
-    direction: 0.0
-  - id: 5
-    name: ÉMÁSZ
-    latitude: 48.095788
-    longitude: 19.802730
-    direction: 0.0
-  - id: 6
-    name: Forgách Antal út 55.
-    latitude: 48.092589
-    longitude: 19.806372
-    direction: 0.0
-  - id: 7
-    name: Forgáchtelep, Szövetkezeti italbolt
-    latitude: 48.089124
-    longitude: 19.809542
-    direction: 0.0
-  - id: 8
-    name: Forgáchtelep
-    latitude: 48.085125
-    longitude: 19.810432
-    direction: 0.0
-  - id: 9
-    name: Somlyó, hegyalja
-    latitude: 48.084555
-    longitude: 19.814197
-    direction: 0.0
-  - id: 10
-    name: Somlyóbánya, alsó
-    latitude: 48.083670
-    longitude: 19.818495
-    direction: 0.0
-  - id: 11
-    name: Somlyóbánya
-    latitude: 48.086565
-    longitude: 19.825109
-    direction: 0.0
+    longitude: 19.800990
+    direction: 0
+-
+    id: 131
+    name: Tűzhelygyár
+    latitude: 48.095290
+    longitude: 19.801125
+    direction: 0
+-
+    id: 11
+    name: Tűzhelygyár alsó
+    latitude: 48.092610
+    longitude: 19.797878
+    direction: 0
+-
+    id: 130
+    name: Tűzhelygyár alsó
+    latitude: 48.092936
+    longitude: 19.798217
+    direction: 0
+-
+    id: 32
+    name: Újtelepi elágazó
+    latitude: 48.066261
+    longitude: 19.787789
+    direction: 0
+-
+    id: 148
+    name: Újtelepi elágazó
+    latitude: 48.066386
+    longitude: 19.787612
+    direction: 0
+-
+    id: 33
+    name: Uzoni iskola
+    latitude: 48.064637
+    longitude: 19.788406
+    direction: 0
+-
+    id: 177
+    name: Vízmű, Károlyakna
+    latitude: 48.108620
+    longitude: 19.790015
+    direction: 0
+-
+    id: 29
+    name: Volán központ
+    latitude: 48.081957
+    longitude: 19.793255
+    direction: 0
+-
+    id: 145
+    name: Volán központ
+    latitude: 48.082605
+    longitude: 19.793464
+    direction: 0
+-
+    id: 95
+    name: Zagyvapálfalva, felüljáró
+    latitude: 48.073583
+    longitude: 19.784539
+    direction: 0
+-
+    id: 192
+    name: Zagyvapálfalva, felüljáró
+    latitude: 48.073891
+    longitude: 19.784486
+    direction: 0
+-
+    id: 27
+    name: Zagyvaróna, községháza
+    latitude: 48.125059
+    longitude: 19.860154
+    direction: 0
+-
+    id: 219
+    name: Zagyvaróna, községháza
+    latitude: 48.125288
+    longitude: 19.859076
+    direction: 0
+-
+    id: 28
+    name: Zagyvaróna, Mátyás király út
+    latitude: 48.127050
+    longitude: 19.857563
+    direction: 0
+-
+    id: 26
+    name: Zagyvaróna, Sallai út
+    latitude: 48.120833
+    longitude: 19.863352
+    direction: 0
+-
+    id: 144
+    name: Zagyvaróna, Sallai út
+    latitude: 48.121474
+    longitude: 19.863019
+    direction: 0

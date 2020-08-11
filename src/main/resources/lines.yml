@@ -1,27 +1,936 @@
 lines:
 - id: 1
+  number: "1"
+  description: "Helyi autóbusz-állomás - Zagyvaróna"
+  stopDelays:
+   -
+       stop: 1
+       minutes: 0
+   -
+       stop: 10
+       minutes: 2
+   -
+       stop: 11
+       minutes: 4
+   -
+       stop: 12
+       minutes: 5
+   -
+       stop: 13
+       minutes: 7
+   -
+       stop: 14
+       minutes: 8
+   -
+       stop: 15
+       minutes: 10
+   -
+       stop: 16
+       minutes: 12
+   -
+       stop: 17
+       minutes: 13
+   -
+       stop: 18
+       minutes: 14
+   -
+       stop: 19
+       minutes: 16
+   -
+       stop: 20
+       minutes: 17
+   -
+       stop: 21
+       minutes: 18
+   -
+       stop: 22
+       minutes: 19
+   -
+       stop: 23
+       minutes: 20
+   -
+       stop: 24
+       minutes: 21
+   -
+       stop: 25
+       minutes: 22
+   -
+       stop: 26
+       minutes: 23
+   -
+       stop: 27
+       minutes: 24
+   -
+       stop: 28
+       minutes: 25
+- id: 2
+  number: "1"
+  description: "Zagyvaróna - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 28
+        minutes: 0
+    -
+        stop: 219
+        minutes: 1
+    -
+        stop: 144
+        minutes: 2
+    -
+        stop: 143
+        minutes: 3
+    -
+        stop: 142
+        minutes: 4
+    -
+        stop: 141
+        minutes: 6
+    -
+        stop: 140
+        minutes: 7
+    -
+        stop: 139
+        minutes: 8
+    -
+        stop: 138
+        minutes: 10
+    -
+        stop: 137
+        minutes: 11
+    -
+        stop: 136
+        minutes: 12
+    -
+        stop: 135
+        minutes: 13
+    -
+        stop: 134
+        minutes: 14
+    -
+        stop: 133
+        minutes: 16
+    -
+        stop: 132
+        minutes: 18
+    -
+        stop: 131
+        minutes: 20
+    -
+        stop: 130
+        minutes: 21
+    -
+        stop: 129
+        minutes: 22
+    -
+        stop: 1
+        minutes: 23
+- id: 3
+  number: "1A"
+  description: "Zagyvaróna - Helyi autóbusz-állomás - Uzoni iskola"
+  stopDelays:
+    -
+        stop: 28
+        minutes: 0
+    -
+        stop: 145
+        minutes: 1
+    -
+        stop: 144
+        minutes: 2
+    -
+        stop: 143
+        minutes: 3
+    -
+        stop: 142
+        minutes: 4
+    -
+        stop: 141
+        minutes: 6
+    -
+        stop: 140
+        minutes: 7
+    -
+        stop: 139
+        minutes: 8
+    -
+        stop: 138
+        minutes: 10
+    -
+        stop: 137
+        minutes: 11
+    -
+        stop: 136
+        minutes: 12
+    -
+        stop: 135
+        minutes: 13
+    -
+        stop: 134
+        minutes: 14
+    -
+        stop: 133
+        minutes: 16
+    -
+        stop: 132
+        minutes: 18
+    -
+        stop: 131
+        minutes: 20
+    -
+        stop: 130
+        minutes: 21
+    -
+        stop: 129
+        minutes: 22
+    -
+        stop: 29
+        minutes: 24
+    -
+        stop: 30
+        minutes: 26
+    -
+        stop: 31
+        minutes: 27
+    -
+        stop: 32
+        minutes: 28
+    -
+        stop: 33
+        minutes: 29
+- id: 4
   number: "2A"
   description: "Helyi autóbusz-állomás - Somlyóbánya"
   stopDelays:
-  - stop: 1
-    minutes: 0
-  - stop: 2
-    minutes: 2
-  - stop: 3
-    minutes: 4
-  - stop: 4
-    minutes: 5
-  - stop: 5
-    minutes: 6
-  - stop: 6
-    minutes: 7
-  - stop: 7
-    minutes: 9
-  - stop: 8
-    minutes: 10
-  - stop: 9
-    minutes: 11
-  - stop: 10
-    minutes: 13
-  - stop: 11
-    minutes: 15
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 2
+    -
+        stop: 11
+        minutes: 4
+    -
+        stop: 12
+        minutes: 5
+    -
+        stop: 34
+        minutes: 6
+    -
+        stop: 35
+        minutes: 7
+    -
+        stop: 36
+        minutes: 9
+    -
+        stop: 37
+        minutes: 10
+    -
+        stop: 38
+        minutes: 11
+    -
+        stop: 39
+        minutes: 13
+    -
+        stop: 40
+        minutes: 15
+- id: 5
+  number: "2A"
+  description: "Somlyóbánya - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 155
+        minutes: 0
+    -
+        stop: 154
+        minutes: 2
+    -
+        stop: 153
+        minutes: 3
+    -
+        stop: 152
+        minutes: 4
+    -
+        stop: 151
+        minutes: 5
+    -
+        stop: 150
+        minutes: 6
+    -
+        stop: 149
+        minutes: 7
+    -
+        stop: 131
+        minutes: 9
+    -
+        stop: 130
+        minutes: 10
+    -
+        stop: 129
+        minutes: 11
+    -
+        stop: 1
+        minutes: 12
+- id: 6
+  number: "2C"
+  description: "Somlyóbánya - Füleki úti körforgalom - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 155
+        minutes: 0
+    -
+        stop: 154
+        minutes: 1
+    -
+        stop: 153
+        minutes: 2
+    -
+        stop: 152
+        minutes: 3
+    -
+        stop: 151
+        minutes: 4
+    -
+        stop: 150
+        minutes: 5
+    -
+        stop: 149
+        minutes: 6
+    -
+        stop: 13
+        minutes: 7
+    -
+        stop: 14
+        minutes: 8
+    -
+        stop: 15
+        minutes: 10
+    -
+        stop: 41
+        minutes: 11
+    -
+        stop: 156
+        minutes: 12
+    -
+        stop: 133
+        minutes: 14
+    -
+        stop: 132
+        minutes: 16
+    -
+        stop: 131
+        minutes: 17
+    -
+        stop: 130
+        minutes: 18
+    -
+        stop: 129
+        minutes: 19
+    -
+        stop: 1
+        minutes: 20
+- id: 7
+  number: "2T"
+  description: "Helyi autóbusz-állomás - Somlyóbánya, üdölőtelep"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 2
+    -
+        stop: 11
+        minutes: 4
+    -
+        stop: 12
+        minutes: 5
+    -
+        stop: 34
+        minutes: 6
+    -
+        stop: 35
+        minutes: 7
+    -
+        stop: 36
+        minutes: 9
+    -
+        stop: 37
+        minutes: 10
+    -
+        stop: 38
+        minutes: 11
+    -
+        stop: 39
+        minutes: 13
+    -
+        stop: 40
+        minutes: 15
+    -
+        stop: 42
+        minutes: 16
+    -
+        stop: 43
+        minutes: 17
+    -
+        stop: 44
+        minutes: 18
+    -
+        stop: 45
+        minutes: 19
+- id: 8
+  number: "2T"
+  description: "Somlyóbánya, üdölőtelep - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 45
+        minutes: 0
+    -
+        stop: 159
+        minutes: 1
+    -
+        stop: 158
+        minutes: 2
+    -
+        stop: 157
+        minutes: 3
+    -
+        stop: 155
+        minutes: 4
+    -
+        stop: 154
+        minutes: 6
+    -
+        stop: 153
+        minutes: 7
+    -
+        stop: 152
+        minutes: 8
+    -
+        stop: 151
+        minutes: 9
+    -
+        stop: 150
+        minutes: 10
+    -
+        stop: 149
+        minutes: 11
+    -
+        stop: 131
+        minutes: 13
+    -
+        stop: 130
+        minutes: 14
+    -
+        stop: 129
+        minutes: 15
+    -
+        stop: 1
+        minutes: 16
+- id: 9
+  number: "3"
+  description: "Helyi autóbusz-állomás - Tesco - Hősök út"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 29
+        minutes: 2
+    -
+        stop: 46
+        minutes: 3
+    -
+        stop: 161
+        minutes: 6
+    -
+        stop: 48
+        minutes: 7
+    -
+        stop: 49
+        minutes: 8
+    -
+        stop: 50
+        minutes: 9
+- id: 10
+  number: "3"
+  description: "Hősök út - Tesco - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 50
+        minutes: 0
+    -
+        stop: 163
+        minutes: 1
+    -
+        stop: 162
+        minutes: 2
+    -
+        stop: 47
+        minutes: 3
+    -
+        stop: 160
+        minutes: 6
+    -
+        stop: 145
+        minutes: 7
+    -
+        stop: 1
+        minutes: 8
+- id: 11
+  number: "3C"
+  description: "Helyi autóbusz-állomás - Eperjestelep - Hősök út"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 2
+    -
+        stop: 11
+        minutes: 4
+    -
+        stop: 12
+        minutes: 5
+    -
+        stop: 13
+        minutes: 7
+    -
+        stop: 14
+        minutes: 8
+    -
+        stop: 164
+        minutes: 10
+    -
+        stop: 165
+        minutes: 11
+    -
+        stop: 166
+        minutes: 12
+    -
+        stop: 168
+        minutes: 13
+    -
+        stop: 161
+        minutes: 15
+    -
+        stop: 48
+        minutes: 16
+    -
+        stop: 49
+        minutes: 17
+    -
+        stop: 50
+        minutes: 18
+- id: 12
+  number: "3C"
+  description: "Helyi autóbusz-állomás - Eperjestelep - Gorkijtelep - Hősök út"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 1
+    -
+        stop: 11
+        minutes: 3
+    -
+        stop: 12
+        minutes: 4
+    -
+        stop: 13
+        minutes: 6
+    -
+        stop: 14
+        minutes: 7
+    -
+        stop: 164
+        minutes: 9
+    -
+        stop: 165
+        minutes: 10
+    -
+        stop: 166
+        minutes: 11
+    -
+        stop: 168
+        minutes: 12
+    -
+        stop: 169
+        minutes: 14
+    -
+        stop: 57
+        minutes: 15
+    -
+        stop: 56
+        minutes: 16
+    -
+        stop: 161
+        minutes: 17
+    -
+        stop: 48
+        minutes: 18
+    -
+        stop: 49
+        minutes: 19
+    -
+        stop: 50
+        minutes: 20
+- id: 13
+  number: "3C"
+  description: "Hősök út - Eperjestelep - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 50
+        minutes: 0
+    -
+        stop: 163
+        minutes: 1
+    -
+        stop: 162
+        minutes: 2
+    -
+        stop: 47
+        minutes: 3
+    -
+        stop: 55
+        minutes: 6
+    -
+        stop: 53
+        minutes: 8
+    -
+        stop: 52
+        minutes: 9
+    -
+        stop: 51
+        minutes: 10
+    -
+        stop: 132
+        minutes: 13
+    -
+        stop: 131
+        minutes: 15
+    -
+        stop: 130
+        minutes: 16
+    -
+        stop: 129
+        minutes: 17
+    -
+        stop: 1
+        minutes: 18
+- id: 14
+  number: "3C"
+  description: "Hősök út - Gorkijtelep - Eperjestelep - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 50
+        minutes: 0
+    -
+        stop: 163
+        minutes: 1
+    -
+        stop: 162
+        minutes: 2
+    -
+        stop: 47
+        minutes: 3
+    -
+        stop: 169
+        minutes: 4
+    -
+        stop: 57
+        minutes: 5
+    -
+        stop: 56
+        minutes: 6
+    -
+        stop: 55
+        minutes: 6
+    -
+        stop: 53
+        minutes: 11
+    -
+        stop: 52
+        minutes: 12
+    -
+        stop: 51
+        minutes: 13
+    -
+        stop: 132
+        minutes: 16
+    -
+        stop: 131
+        minutes: 18
+    -
+        stop: 130
+        minutes: 19
+    -
+        stop: 129
+        minutes: 20
+    -
+        stop: 1
+        minutes: 21
+- id: 15
+  number: "4"
+  description: "Helyi autóbusz-állomás - Baglyasalja"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 58
+        minutes: 2
+    -
+        stop: 54
+        minutes: 3
+    -
+        stop: 59
+        minutes: 4
+    -
+        stop: 60
+        minutes: 5
+    -
+        stop: 61
+        minutes: 6
+    -
+        stop: 62
+        minutes: 7
+    -
+        stop: 63
+        minutes: 8
+    -
+        stop: 64
+        minutes: 9
+- id: 16
+  number: "4"
+  description: "Baglyasalja - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 64
+        minutes: 0
+    -
+        stop: 175
+        minutes: 1
+    -
+        stop: 174
+        minutes: 2
+    -
+        stop: 173
+        minutes: 3
+    -
+        stop: 172
+        minutes: 4
+    -
+        stop: 171
+        minutes: 5
+    -
+        stop: 167
+        minutes: 6
+    -
+        stop: 170
+        minutes: 7
+    -
+        stop: 1
+        minutes: 8
+- id: 17
+  number: "4A"
+  description: "Baglyasalja - Hősök út"
+  stopDelays:
+    -
+        stop: 64
+        minutes: 0
+    -
+        stop: 175
+        minutes: 1
+    -
+        stop: 174
+        minutes: 2
+    -
+        stop: 173
+        minutes: 3
+    -
+        stop: 172
+        minutes: 4
+    -
+        stop: 171
+        minutes: 5
+    -
+        stop: 167
+        minutes: 6
+    -
+        stop: 170
+        minutes: 7
+    -
+        stop: 29
+        minutes: 8
+    -
+        stop: 46
+        minutes: 9
+    -
+        stop: 161
+        minutes: 12
+    -
+        stop: 48
+        minutes: 13
+    -
+        stop: 49
+        minutes: 14
+    -
+        stop: 50
+        minutes: 15
+- id: 18
+  number: "5"
+  description: "Helyi autóbusz-állomás - Idegér - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 2
+    -
+        stop: 11
+        minutes: 4
+    -
+        stop: 12
+        minutes: 5
+    -
+        stop: 13
+        minutes: 7
+    -
+        stop: 14
+        minutes: 8
+    -
+        stop: 65
+        minutes: 11
+    -
+        stop: 66
+        minutes: 12
+    -
+        stop: 67
+        minutes: 13
+    -
+        stop: 68
+        minutes: 14
+    -
+        stop: 177
+        minutes: 15
+    -
+        stop: 178
+        minutes: 16
+    -
+        stop: 176
+        minutes: 17
+    -
+        stop: 132
+        minutes: 20
+    -
+        stop: 131
+        minutes: 22
+    -
+        stop: 130
+        minutes: 23
+    -
+        stop: 129
+        minutes: 24
+    -
+        stop: 1
+        minutes: 25
+- id: 19
+  number: "6"
+  description: "Helyi autóbusz-állomás - Camping telep"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 1
+    -
+        stop: 11
+        minutes: 2
+    -
+        stop: 12
+        minutes: 3
+    -
+        stop: 13
+        minutes: 5
+    -
+        stop: 14
+        minutes: 6
+    -
+        stop: 15
+        minutes: 8
+    -
+        stop: 41
+        minutes: 10
+    -
+        stop: 76
+        minutes: 12
+    -
+        stop: 75
+        minutes: 14
+    -
+        stop: 74
+        minutes: 15
+    -
+        stop: 73
+        minutes: 16
+    -
+        stop: 72
+        minutes: 17
+    -
+        stop: 71
+        minutes: 18
+    -
+        stop: 69
+        minutes: 19
+- id: 20
+  number: "6"
+  description: "Camping telep - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 69
+        minutes: 0
+    -
+        stop: 180
+        minutes: 1
+    -
+        stop: 181
+        minutes: 2
+    -
+        stop: 182
+        minutes: 3
+    -
+        stop: 183
+        minutes: 4
+    -
+        stop: 184
+        minutes: 6
+    -
+        stop: 185
+        minutes: 8
+    -
+        stop: 156
+        minutes: 10
+    -
+        stop: 133
+        minutes: 12
+    -
+        stop: 132
+        minutes: 14
+    -
+        stop: 131
+        minutes: 16
+    -
+        stop: 130
+        minutes: 17
+    -
+        stop: 129
+        minutes: 18
+    -
+        stop: 1
+        minutes: 19
