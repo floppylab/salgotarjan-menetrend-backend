@@ -1265,3 +1265,16 @@ stops:
     latitude: 48.121474
     longitude: 19.863019
     direction: 0
+-
+    id: 220
+    name: Zagyvapálfalva, vasútállomás bejárati út
+    latitude: 48.065551
+    longitude: 19.785956
+    direction: 0
+-
+    id: 221
+    name: Zagyvapálfalva, vasútállomás bejárati út
+    latitude: 48.065232
+    longitude: 19.785242
+    direction: 0
+
