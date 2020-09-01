@@ -1776,7 +1776,7 @@ lines:
         minutes: 23
 - id: 33
   number: "11A"
-  description: "Somoskő - Helyi autóbusz-állomás"
+  description: "Országhatár - Somoskőújfalu - Helyi autóbusz-állomás"
   stopDelays:
     -
         stop: 211
@@ -1846,7 +1846,7 @@ lines:
         minutes: 30
 - id: 34
   number: "11A"
-  description: "Helyi autóbusz-állomás - Somoskő"
+  description: "Helyi autóbusz-állomás - Somoskőújfalu - Országhatár"
   stopDelays:
     -
         stop: 1
@@ -2466,7 +2466,7 @@ lines:
         minutes: 40
 - id: 43
   number: "11B"
-  description: "Salgóbánya - Somoskő - Országhatár - Beszterce lakótelepi iskola - Helyi autóbusz-állomás "
+  description: "Salgóbánya - Somoskő - Országhatár - Beszterce lakótelepi iskola - Helyi autóbusz-állomás"
   stopDelays:
     -
         stop: 125
@@ -2567,7 +2567,7 @@ lines:
     -
         stop: 1
         minutes: 40
-- id: 43
+- id: 69
   number: "11B"
   description: "Helyi autóbusz-állomás - Országhatár - Somoskő - Salgóbánya"
   stopDelays:
@@ -2670,9 +2670,9 @@ lines:
     -
         stop: 125
         minutes: 45
-- id: 43
+- id: 70
   number: "11B"
-  description: "Salgóbánya - Országhatár - Helyi autóbusz-állomás "
+  description: "Salgóbánya - Országhatár - Helyi autóbusz-állomás"
   stopDelays:
     -
         stop: 125
@@ -2758,9 +2758,9 @@ lines:
     -
         stop: 1
         minutes: 36
-- id: 43
+- id: 71
   number: "36"
-  description: "Campingtelep - Helyi autóbusz-állomás - Tesco - Gorkijtelep - Hősök út"
+  description: "Campingtelep - Helyi autóbusz-állomás - Tesco - Hősök út"
   stopDelays:
     -
         stop: 69
