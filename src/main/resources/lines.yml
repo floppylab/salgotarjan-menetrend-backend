@@ -4100,7 +4100,7 @@ lines:
         minutes: 40
 - id: 57
   number: "63S"
-  description: "Hősök út - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep"
+  description: "Hősök út - Sugár út - Csokonai út - TESCO - Helyi autóbusz-állomás - Campingtelep"
   stopDelays:
     -
         stop: 50
@@ -4321,7 +4321,7 @@ lines:
         minutes: 44
 - id: 59
   number: "63S"
-  description: "Hősök út - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep"
+  description: "Hősök út - Gorkijtelep - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep"
   stopDelays:
     -
         stop: 50
