@@ -437,11 +437,194 @@ departures:
 - line: 20
   time: "17:10"
   day: "FREE_DAY_AND_DAY_OF_REST"
-
-
-
-
-
-
-
-
+# 7 - Helyi autóbusz-állomás - Kórház - Fáy András körút - Losonci út - Helyi autóbusz-állomás
+- line: 21
+  time: "07:00" #t
+  day: "WORK_DAY"
+- line: 21
+  time: "15:00"
+  day: "WORK_DAY"
+- line: 21
+  time: "15:55" #t
+  day: "WORK_DAY"
+- line: 21
+  time: "16:35"
+  day: "WORK_DAY"
+- line: 21
+  time: "18:35"
+  day: "WORK_DAY"
+- line: 21
+  time: "22:45"
+  day: "ALL_DAYS"
+- line: 21
+  time: "12:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 7 - Helyi autóbusz-állomás - Forgáchtelep - Kórház - Fáy András körút - Losonci út - Helyi autóbusz-állomás
+- line: 22
+  time: "06:50" #i
+  day: "WORK_DAY"
+# 7 - idegéri betéréssel TODO!
+# 7A - Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Helyi autóbusz-állomás
+- line: 24
+  time: "05:00"
+  day: "WORK_DAY"
+- line: 24
+  time: "05:20"
+  day: "WORK_DAY"
+- line: 24
+  time: "05:50"
+  day: "WORK_DAY"
+- line: 24
+  time: "06:50"
+  day: "WORK_DAY"
+- line: 24
+  time: "08:35"
+  day: "WORK_DAY"
+- line: 24
+  time: "11:45" #t
+  day: "WORK_DAY"
+- line: 24
+  time: "12:35"
+  day: "WORK_DAY"
+- line: 24
+  time: "13:35"
+  day: "WORK_DAY"
+- line: 24
+  time: "15:35"
+  day: "ALL_DAYS"
+- line: 24
+  time: "17:35"
+  day: "ALL_DAYS"
+- line: 24
+  time: "19:35"
+  day: "ALL_DAYS"
+- line: 24
+  time: "21:35"
+  day: "ALL_DAYS"
+- line: 24
+  time: "06:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 24
+  time: "09:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 24
+  time: "13:10"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 24
+  time: "14:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 24
+  time: "16:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 24
+  time: "18:35"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 7A - idegéri betéréssel TODO!
+# 7A - Uzoni iskola - Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Helyi autóbusz-állomás
+- line: 23
+  time: "06:25" # (sugár útról???)
+  day: "WORK_DAY"
+- line: 23
+  time: "11:40" #i
+  day: "WORK_DAY"
+# 7B - Helyi autóbusz-állomás - Losonci út - Fáy András körút - Kórház - Helyi autóbusz-állomás
+- line: 25
+  time: "09:20"
+  day: "WORK_DAY"
+- line: 25
+  time: "14:05"
+  day: "WORK_DAY"
+- line: 25
+  time: "15:55"
+  day: "WORK_DAY" #i
+# 7C - Helyi autóbusz-állomás - Losonci út - Fáy András körút - Helyi autóbusz-állomás - Uzoni iskola
+- line: 27
+  time: "07:20"
+  day: "WORK_DAY"
+# 8 - Helyi autóbusz-állomás - Szerpentin út - Helyi autóbusz-állomás
+- line: 28
+  time: "16:30"
+  day: "WORK_DAY"
+- line: 28
+  time: "18:35"
+  day: "WORK_DAY"
+- line: 28
+  time: "14:10"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+- line: 28
+  time: "16:30"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 9 - Helyi autóbusz-állomás - Ipari Park
+- line: 30
+  time: "11:50"
+  day: "WORK_DAY"
+- line: 30
+  time: "12:45"
+  day: "WORK_DAY"
+- line: 30
+  time: "13:34"
+  day: "WORK_DAY"
+- line: 30
+  time: "14:45"
+  day: "WORK_DAY"
+- line: 30
+  time: "22:05"
+  day: "WORK_DAY"
+- line: 30
+  time: "08:45"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 9 - Ipari Park - Helyi autóbusz-állomás
+- line: 29
+  time: "05:35"
+  day: "WORK_DAY"
+- line: 29
+  time: "06:05"
+  day: "ALL_DAYS"
+- line: 29
+  time: "08:05"
+  day: "WORK_DAY"
+- line: 29
+  time: "09:05"
+  day: "WORK_DAY"
+- line: 29
+  time: "12:10" # füleki útig?
+  day: "WORK_DAY"
+- line: 29
+  time: "14:05"
+  day: "WORK_DAY"
+- line: 29
+  time: "14:10"
+  day: "ALL_DAYS"
+- line: 29
+  time: "15:05"
+  day: "WORK_DAY"
+- line: 29
+  time: "16:05"
+  day: "WORK_DAY"
+- line: 29
+  time: "22:19"
+  day: "WORK_DAY"
+- line: 29
+  time: "22:23"
+  day: "WORK_DAY"
+- line: 29
+  time: "22:20"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 9 - Helyi autóbusz-állomás - Kotyháza - Ipari Park
+- line: 32
+  time: "08:40"
+  day: "WORK_DAY"
+- line: 32
+  time: "15:40"
+  day: "WORK_DAY"
+# 9 - Ipari Park - Kotyháza - Helyi autóbusz-állomás
+- line: 31
+  time: "06:55"
+  day: "WORK_DAY"
+- line: 31
+  time: "13:00"
+  day: "WORK_DAY"
+- line: 31
+  time: "09:05"
+  day: "FREE_DAY_AND_DAY_OF_REST"
+# 9 - Kotyháza - Helyi autóbusz-állomás TODO
