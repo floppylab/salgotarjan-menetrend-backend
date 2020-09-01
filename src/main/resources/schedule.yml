@@ -457,13 +457,19 @@ departures:
   time: "22:45"
   day: "ALL_DAYS"
 - line: 21
+  time: "10:35"
+  day: "DAY_OF_REST"
+- line: 21
   time: "12:35"
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 7 - Helyi autóbusz-állomás - Forgáchtelep - Kórház - Fáy András körút - Losonci út - Helyi autóbusz-állomás
 - line: 22
   time: "06:50" #i
   day: "WORK_DAY"
-# 7 - idegéri betéréssel TODO!
+# 7 - Helyi autóbusz-állomás - Kórház - Fáy András körút - Losonci út - Idegér - Helyi autóbusz-állomás
+- line: 73
+  time: "10:35"
+  day: "FREE_DAY"
 # 7A - Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Helyi autóbusz-állomás
 - line: 24
   time: "05:00"
@@ -519,7 +525,10 @@ departures:
 - line: 24
   time: "18:35"
   day: "FREE_DAY_AND_DAY_OF_REST"
-# 7A - idegéri betéréssel TODO!
+# 7A - Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Idegér - Helyi autóbusz-állomás
+- line: 74
+  time: "08:35"
+  day: "FREE_DAY"
 # 7A - Uzoni iskola - Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Helyi autóbusz-állomás
 - line: 23
   time: "06:25" # (sugár útról???)
@@ -587,9 +596,6 @@ departures:
   time: "09:05"
   day: "WORK_DAY"
 - line: 29
-  time: "12:10" # füleki útig?
-  day: "WORK_DAY"
-- line: 29
   time: "14:05"
   day: "WORK_DAY"
 - line: 29
@@ -610,6 +616,10 @@ departures:
 - line: 29
   time: "22:20"
   day: "FREE_DAY_AND_DAY_OF_REST"
+# 9 - Ipari Park - Helyi autóbusz-állomás - Füleki úti körforgalom
+- line: 75
+  time: "12:10"
+  day: "WORK_DAY"
 # 9 - Helyi autóbusz-állomás - Kotyháza - Ipari Park
 - line: 32
   time: "08:40"
@@ -627,7 +637,10 @@ departures:
 - line: 31
   time: "09:05"
   day: "FREE_DAY_AND_DAY_OF_REST"
-# 9 - Kotyháza - Helyi autóbusz-állomás TODO
+# 9 - Kotyháza - Helyi autóbusz-állomás
+- line: 76
+  time: "04:55"
+  day: "WORK_DAY"
 # 11 - Helyi autóbusz-állomás - Somoskőújfalu
 - line: 36
   time: "06:10"
@@ -829,10 +842,10 @@ departures:
   time: "07:00" #i
   day: "ALL_DAYS"
 # 11Y - Somoskőújfalu, országhatár - Helyi autóbusz-állomás - Hősok úti forduló
-- line: 37
+- line: 72
   time: "06:45"
   day: "WORK_DAY"
-- line: 37
+- line: 72
   time: "15:00"
   day: "WORK_DAY"
 # 13 - Zagyvaróna - Helyi autóbusz-állomás - Ipari Park
@@ -921,6 +934,13 @@ departures:
 - line: 52
   time: "17:10"
   day: "FREE_DAY_AND_DAY_OF_REST"
+# 14 - Baglyasalja - Helyi autóbusz-állomás - Idegér - Zagyvaróna
+- line: 77
+  time: "08:45"
+  day: "FREE_DAY"
+- line: 77
+  time: "10:35"
+  day: "FREE_DAY"
 # 14 - Baglyasalja - Helyi autóbusz-állomás - Zagyvaróna
 - line: 53
   time: "05:25"
@@ -1015,6 +1035,13 @@ departures:
 - line: 53
   time: "22:25"
   day: "FREE_DAY_AND_DAY_OF_REST"
+# 14 - Zagyvaróna - Idegér - Helyi autóbusz-állomás - Baglyasalja
+- line: 78
+  time: "08:05"
+  day: "FREE_DAY"
+- line: 78
+  time: "09:55"
+  day: "FREE_DAY"
 # 19 - Salgóbánya - Somoskő - Ipari Park
 - line: 48
   time: "12:50"
@@ -1446,4 +1473,8 @@ departures:
 # 63S - Hősök út - Gorkijtelep - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep
 - line: 59
   time: "05:00"
+  day: "WORK_DAY"
+# 63S - Hősök út - Gorkijtelep - Sugár út - Csokonai út - TESCO - Helyi autóbusz-állomás - Campingtelep
+- line: 79
+  time: "13:10"
   day: "WORK_DAY"

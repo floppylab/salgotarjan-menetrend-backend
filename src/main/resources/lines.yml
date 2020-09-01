@@ -2124,7 +2124,7 @@ lines:
     -
         stop: 125
         minutes: 35
-- id: 37
+- id: 72
   number: "11Y"
   description: "Somoskőújfalu, országhatár - Helyi autóbusz-állomás - Hősok úti forduló"
   stopDelays:
@@ -5100,3 +5100,628 @@ lines:
     -
         stop: 64
         minutes: 16
+- id: 73
+  number: "7"
+  description: "Helyi autóbusz-állomás - Kórház - Fáy András körút - Losonci út - Idegér - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 2
+    -
+        stop: 11
+        minutes: 4
+    -
+        stop: 12
+        minutes: 5
+    -
+        stop: 13
+        minutes: 7
+    -
+        stop: 14
+        minutes: 8
+    -
+        stop: 15
+        minutes: 10
+    -
+        stop: 41
+        minutes: 12
+    -
+        stop: 76
+        minutes: 14
+    -
+        stop: 75
+        minutes: 16
+    -
+        stop: 77
+        minutes: 17
+    -
+        stop: 78
+        minutes: 18
+    -
+        stop: 79
+        minutes: 19
+    -
+        stop: 80
+        minutes: 20
+    -
+        stop: 81
+        minutes: 21
+    -
+        stop: 187
+        minutes: 22
+    -
+        stop: 188
+        minutes: 23
+    -
+        stop: 189
+        minutes: 24
+    -
+        stop: 190
+        minutes: 25
+    -
+        stop: 65
+        minutes: 26
+    -
+        stop: 66
+        minutes: 27
+    -
+        stop: 67
+        minutes: 28
+    -
+        stop: 68
+        minutes: 29
+    -
+        stop: 177
+        minutes: 30
+    -
+        stop: 178
+        minutes: 31
+    -
+        stop: 176
+        minutes: 32
+    -
+        stop: 132
+        minutes: 34
+    -
+        stop: 131
+        minutes: 35
+    -
+        stop: 130
+        minutes: 36
+    -
+        stop: 129
+        minutes: 37
+    -
+        stop: 1
+        minutes: 38
+- id: 74
+  number: "7A"
+  description: "Helyi autóbusz-állomás - Kórház - Fáy András körút - Kórház - Idegér - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 1
+        minutes: 0
+    -
+        stop: 10
+        minutes: 1
+    -
+        stop: 11
+        minutes: 2
+    -
+        stop: 12
+        minutes: 3
+    -
+        stop: 13
+        minutes: 5
+    -
+        stop: 14
+        minutes: 6
+    -
+        stop: 15
+        minutes: 8
+    -
+        stop: 41
+        minutes: 10
+    -
+        stop: 76
+        minutes: 11
+    -
+        stop: 75
+        minutes: 13
+    -
+        stop: 77
+        minutes: 14
+    -
+        stop: 78
+        minutes: 15
+    -
+        stop: 79
+        minutes: 16
+    -
+        stop: 80
+        minutes: 17
+    -
+        stop: 81
+        minutes: 18
+    -
+        stop: 184
+        minutes: 19
+    -
+        stop: 185
+        minutes: 21
+    -
+        stop: 156
+        minutes: 22
+    -
+        stop: 133
+        minutes: 24
+    -
+        stop: 65
+        minutes: 26
+    -
+        stop: 66
+        minutes: 27
+    -
+        stop: 67
+        minutes: 28
+    -
+        stop: 68
+        minutes: 29
+    -
+        stop: 177
+        minutes: 30
+    -
+        stop: 178
+        minutes: 31
+    -
+        stop: 176
+        minutes: 32
+    -
+        stop: 132
+        minutes: 34
+    -
+        stop: 131
+        minutes: 35
+    -
+        stop: 130
+        minutes: 36
+    -
+        stop: 129
+        minutes: 37
+    -
+        stop: 1
+        minutes: 38
+- id: 75
+  number: "9"
+  description: "Ipari Park - Helyi autóbusz-állomás - Füleki úti körforgalom"
+  stopDelays:
+    -
+        stop: 108
+        minutes: 0
+    -
+        stop: 201
+        minutes: 1
+    -
+        stop: 105
+        minutes: 2
+    -
+        stop: 200
+        minutes: 3
+    -
+        stop: 196
+        minutes: 5
+    -
+        stop: 195
+        minutes: 6
+    -
+        stop: 194
+        minutes: 8
+    -
+        stop: 96
+        minutes: 9
+    -
+        stop: 95
+        minutes: 10
+    -
+        stop: 160
+        minutes: 13
+    -
+        stop: 145
+        minutes: 14
+    -
+        stop: 1
+        minutes: 15
+    -
+        stop: 10
+        minutes: 16
+    -
+        stop: 11
+        minutes: 17
+    -
+        stop: 12
+        minutes: 18
+    -
+        stop: 13
+        minutes: 20
+    -
+        stop: 14
+        minutes: 21
+    -
+        stop: 15
+        minutes: 23
+    -
+        stop: 41
+        minutes: 25
+- id: 76
+  number: "9"
+  description: "Kotyháza - Helyi autóbusz-állomás"
+  stopDelays:
+    -
+        stop: 103
+        minutes: 0
+    -
+        stop: 199
+        minutes: 1
+    -
+        stop: 198
+        minutes: 2
+    -
+        stop: 197
+        minutes: 4
+    -
+        stop: 196
+        minutes: 5
+    -
+        stop: 195
+        minutes: 6
+    -
+        stop: 194
+        minutes: 8
+    -
+        stop: 96
+        minutes: 9
+    -
+        stop: 95
+        minutes: 10
+    -
+        stop: 160
+        minutes: 13
+    -
+        stop: 145
+        minutes: 14
+    -
+        stop: 1
+        minutes: 15
+- id: 77
+  number: "14"
+  description: "Baglyasalja - Helyi autóbusz-állomás - Idegér - Zagyvaróna"
+  stopDelays:
+    -
+        stop: 64
+        minutes: 0
+    -
+        stop: 175
+        minutes: 1
+    -
+        stop: 174
+        minutes: 2
+    -
+        stop: 173
+        minutes: 3
+    -
+        stop: 172
+        minutes: 4
+    -
+        stop: 171
+        minutes: 5
+    -
+        stop: 167
+        minutes: 6
+    -
+        stop: 170
+        minutes: 7
+    -
+        stop: 10
+        minutes: 8
+    -
+        stop: 11
+        minutes: 10
+    -
+        stop: 12
+        minutes: 11
+    -
+        stop: 13
+        minutes: 13
+    -
+        stop: 14
+        minutes: 14
+    -
+        stop: 65
+        minutes: 17
+    -
+        stop: 66
+        minutes: 18
+    -
+        stop: 67
+        minutes: 19
+    -
+        stop: 68
+        minutes: 20
+    -
+        stop: 177
+        minutes: 21
+    -
+        stop: 178
+        minutes: 22
+    -
+        stop: 176
+        minutes: 23
+    -
+        stop: 15
+        minutes: 26
+    -
+        stop: 16
+        minutes: 28
+    -
+        stop: 17
+        minutes: 29
+    -
+        stop: 18
+        minutes: 30
+    -
+        stop: 19
+        minutes: 32
+    -
+        stop: 20
+        minutes: 33
+    -
+        stop: 21
+        minutes: 34
+    -
+        stop: 22
+        minutes: 35
+    -
+        stop: 23
+        minutes: 36
+    -
+        stop: 24
+        minutes: 37
+    -
+        stop: 25
+        minutes: 38
+    -
+        stop: 26
+        minutes: 39
+    -
+        stop: 27
+        minutes: 40
+    -
+        stop: 28
+        minutes: 41
+- id: 78
+  number: "14"
+  description: "Zagyvaróna - Idegér - Helyi autóbusz-állomás - Baglyasalja"
+  stopDelays:
+    -
+        stop: 28
+        minutes: 0
+    -
+        stop: 219
+        minutes: 1
+    -
+        stop: 144
+        minutes: 2
+    -
+        stop: 143
+        minutes: 3
+    -
+        stop: 142
+        minutes: 4
+    -
+        stop: 141
+        minutes: 6
+    -
+        stop: 140
+        minutes: 7
+    -
+        stop: 139
+        minutes: 8
+    -
+        stop: 138
+        minutes: 10
+    -
+        stop: 137
+        minutes: 11
+    -
+        stop: 136
+        minutes: 12
+    -
+        stop: 135
+        minutes: 13
+    -
+        stop: 134
+        minutes: 14
+    -
+        stop: 133
+        minutes: 16
+    -
+        stop: 65
+        minutes: 19
+    -
+        stop: 66
+        minutes: 20
+    -
+        stop: 67
+        minutes: 21
+    -
+        stop: 68
+        minutes: 22
+    -
+        stop: 177
+        minutes: 23
+    -
+        stop: 178
+        minutes: 24
+    -
+        stop: 176
+        minutes: 25
+    -
+        stop: 132
+        minutes: 28
+    -
+        stop: 131
+        minutes: 30
+    -
+        stop: 130
+        minutes: 31
+    -
+        stop: 129
+        minutes: 32
+    -
+        stop: 58
+        minutes: 34
+    -
+        stop: 54
+        minutes: 35
+    -
+        stop: 59
+        minutes: 36
+    -
+        stop: 60
+        minutes: 37
+    -
+        stop: 61
+        minutes: 38
+    -
+        stop: 62
+        minutes: 39
+    -
+        stop: 63
+        minutes: 40
+    -
+        stop: 64
+        minutes: 41
+- id: 79
+  number: "63S"
+  description: "Hősök út - Gorkijtelep - Sugár út - Csokonai út - TESCO - Helyi autóbusz-állomás - Campingtelep"
+  stopDelays:
+    -
+        stop: 50
+        minutes: 0
+    -
+        stop: 163
+        minutes: 2
+    -
+        stop: 162
+        minutes: 3
+    -
+        stop: 47
+        minutes: 4
+    -
+        stop: 169
+        minutes: 5
+    -
+        stop: 57
+        minutes: 7
+    -
+        stop: 56
+        minutes: 8
+    -
+        stop: 192
+        minutes: 9
+    -
+        stop: 193
+        minutes: 10
+    -
+        stop: 97
+        minutes: 11
+    -
+        stop: 221
+        minutes: 13
+    -
+        stop: 33
+        minutes: 14
+    -
+        stop: 126
+        minutes: 15
+    -
+        stop: 127
+        minutes: 16
+    -
+        stop: 128
+        minutes: 17
+    -
+        stop: 218
+        minutes: 17
+    -
+        stop: 217
+        minutes: 18
+    -
+        stop: 216
+        minutes: 19
+    -
+        stop: 33
+        minutes: 20
+    -
+        stop: 32
+        minutes: 21
+    -
+        stop: 147
+        minutes: 22
+    -
+        stop: 146
+        minutes: 23
+    -
+        stop: 46
+        minutes: 25
+    -
+        stop: 160
+        minutes: 27
+    -
+        stop: 145
+        minutes: 28
+    -
+        stop: 10
+        minutes: 29
+    -
+        stop: 11
+        minutes: 30
+    -
+        stop: 12
+        minutes: 31
+    -
+        stop: 13
+        minutes: 33
+    -
+        stop: 14
+        minutes: 34
+    -
+        stop: 15
+        minutes: 35
+    -
+        stop: 41
+        minutes: 37
+    -
+        stop: 76
+        minutes: 39
+    -
+        stop: 75
+        minutes: 41
+    -
+        stop: 74
+        minutes: 43
+    -
+        stop: 73
+        minutes: 44
+    -
+        stop: 72
+        minutes: 45
+    -
+        stop: 71
+        minutes: 46
+    -
+        stop: 69
+        minutes: 47
