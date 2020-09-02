@@ -16,6 +16,7 @@ public class YamlFileContextInitializer implements ApplicationContextInitializer
     private static final Map<String, String> RESOURCE_LOCATIONS = new HashMap<String, String>() {{
             put("stops", "classpath:stops.yml");
             put("lines", "classpath:lines.yml");
+            put("days", "classpath:days.yml");
             put("departures", "classpath:schedule.yml");
         }};
 

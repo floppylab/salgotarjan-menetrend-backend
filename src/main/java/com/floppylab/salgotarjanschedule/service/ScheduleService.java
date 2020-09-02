@@ -1,6 +1,7 @@
 package com.floppylab.salgotarjanschedule.service;
 
-import com.floppylab.salgotarjanschedule.domain.Day;
+import com.floppylab.salgotarjanschedule.domain.DayInfo;
+import com.floppylab.salgotarjanschedule.domain.DayType;
 import com.floppylab.salgotarjanschedule.domain.Departure;
 import com.floppylab.salgotarjanschedule.domain.Line;
 import com.floppylab.salgotarjanschedule.domain.LineInfo;
@@ -23,16 +24,19 @@ public class ScheduleService {
 
     private final LineService lineService;
 
-    private final DayTypeService dayTypeService;
+    private final DayService dayService;
 
     public List<Departure> findDepartures(Long line, LocalDate date) {
-        // day types for today
-        List<Day> possibleDays = dayTypeService.calculateDayTypes(date);
+        // dayType types for today
+        List<DayType> possibleDayTypes = dayService.calculateDayTypes(date);
+
+        DayInfo dayInfo = dayService.getDayInfo(LocalDate.now());
 
         return schedule.getDepartures()
                 .stream()
-                // that line on that day
-                .filter(departure -> departure.getLine() == line && possibleDays.contains(departure.getDay()))
+                // that line on that dayType
+                .filter(departure -> departure.getLine() == line && possibleDayTypes.contains(departure.getDay()))
+                .filter(departure -> filterSchoolWinterAndSummerExceptions(departure, dayInfo))
                 // sort by stop times
                 .sorted(Comparator.comparing(Departure::getTime))
                 .collect(Collectors.toList());
@@ -42,13 +46,16 @@ public class ScheduleService {
         // lines that stop in that particular bus stop
         List<Long> stoppingLines = lineService.getStoppingLines(stop).stream().map(LineInfo::getId).collect(Collectors.toList());
 
-        // day types for today
-        List<Day> possibleDays = dayTypeService.calculateDayTypes();
+        // dayType types for today
+        List<DayType> possibleDayTypes = dayService.calculateDayTypes();
+
+        DayInfo dayInfo = dayService.getDayInfo(LocalDate.now());
 
         return schedule.getDepartures()
                 .stream()
-                // in that stop on that day
-                .filter(departure -> stoppingLines.contains(departure.getLine()) && possibleDays.contains(departure.getDay()))
+                // in that stop on that dayType
+                .filter(departure -> stoppingLines.contains(departure.getLine()) && possibleDayTypes.contains(departure.getDay()))
+                .filter(departure -> filterSchoolWinterAndSummerExceptions(departure, dayInfo))
                 // turn to stop departure
                 .map(departure -> convertToStopDeparture(departure, stop))
                 // filter possibly passed ones - 5 minutes delay
@@ -66,6 +73,22 @@ public class ScheduleService {
         int minutes = line.getStopDelays().stream().filter(t -> t.getStop() == stop).findFirst().get().getMinutes();
         stopDeparture.setTime(departure.getTime().plusMinutes(minutes));
         return stopDeparture;
+    }
+
+    private boolean filterSchoolWinterAndSummerExceptions(Departure departure, DayInfo dayInfo) {
+        if (departure.getOnlySummerTime() != null && departure.getOnlySummerTime() && !dayInfo.isSummerTime()) {
+            return false;
+        }
+        if (departure.getOnlyWinterTime() != null && departure.getOnlyWinterTime() && dayInfo.isSummerTime()) {
+            return false;
+        }
+        if (departure.getOnlySchoolHoliday() != null && departure.getOnlySchoolHoliday() && !dayInfo.isSchoolHoliday()) {
+            return false;
+        }
+        if (departure.getOnlySchoolDay() != null && departure.getOnlySchoolDay() && dayInfo.isSchoolHoliday()) {
+            return false;
+        }
+        return true;
     }
 
 }

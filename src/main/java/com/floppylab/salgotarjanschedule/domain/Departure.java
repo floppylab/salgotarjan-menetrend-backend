@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.awt.print.Book;
 import java.time.LocalTime;
 
 @Data
@@ -17,6 +18,14 @@ public class Departure {
     @DateTimeFormat(pattern = "HH:mm")
     private LocalTime time;
 
-    private Day day;
+    private DayType day;
+
+    private Boolean onlySummerTime;
+
+    private Boolean onlyWinterTime;
+
+    private Boolean onlySchoolHoliday;
+
+    private Boolean onlySchoolDay;
 
 }

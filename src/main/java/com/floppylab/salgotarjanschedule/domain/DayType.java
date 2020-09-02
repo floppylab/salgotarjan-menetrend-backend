@@ -1,6 +1,6 @@
 package com.floppylab.salgotarjanschedule.domain;
 
-public enum Day {
+public enum DayType {
 
     ALL_DAYS, // minden nap
     WORK_DAY, // munkanap

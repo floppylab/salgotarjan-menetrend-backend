@@ -29,8 +29,9 @@ departures:
   time: "06:45"
   day: "ALL_DAYS"
 - line: 2
-  time: "07:20" #t
+  time: "07:20"
   day: "WORK_DAY"
+  onlySchoolHoliday: true
 - line: 2
   time: "07:45"
   day: "ALL_DAYS"
@@ -55,7 +56,8 @@ departures:
 # 1A - Zagyvaróna - Helyi autóbusz-állomás - Uzoni iskola
 - line: 3
   time: "07:20"
-  day: "WORK_DAY" #i
+  day: "WORK_DAY"
+  onlySchoolDay: true
 # 2A - Helyi autóbusz-állomás - Somlyóbánya
 - line: 4
   time: "05:35"
@@ -65,10 +67,12 @@ departures:
   day: "WORK_DAY"
 - line: 4
   time: "06:35"
-  day: "FREE_DAY_AND_DAY_OF_REST" #t
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlyWinterTime: true
 - line: 4
   time: "08:20"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 - line: 4
   time: "11:20"
   day: "ALL_DAYS"
@@ -80,22 +84,26 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 - line: 4
   time: "14:30"
-  day: "FREE_DAY_AND_DAY_OF_REST" #cst
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlyWinterTime: true
 - line: 4
   time: "14:40"
   day: "WORK_DAY"
 - line: 4
   time: "15:35"
   day: "WORK_DAY"
+  onlyWinterTime: true
 - line: 4
   time: "16:35"
   day: "WORK_DAY"
 - line: 4
   time: "17:35"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 - line: 4
   time: "18:40"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 - line: 4
   time: "22:45"
   day: "ALL_DAYS"
@@ -108,10 +116,12 @@ departures:
   day: "WORK_DAY"
 - line: 5
   time: "06:55"
-  day: "FREE_DAY_AND_DAY_OF_REST" #cst
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlyWinterTime: true
 - line: 5
   time: "08:40"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 - line: 5
   time: "11:40"
   day: "FREE_DAY_AND_DAY_OF_REST"
@@ -126,22 +136,26 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 - line: 5
   time: "14:50"
-  day: "FREE_DAY_AND_DAY_OF_REST" #cst
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlyWinterTime: true
 - line: 5
   time: "14:55"
   day: "WORK_DAY"
 - line: 5
   time: "15:55"
-  day: "WORK_DAY" #cst
+  day: "WORK_DAY"
+  onlyWinterTime: true
 - line: 5
   time: "16:55"
   day: "WORK_DAY"
 - line: 5
   time: "17:55"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 - line: 5
   time: "18:55"
-  day: "ALL_DAYS" #cst
+  day: "ALL_DAYS"
+  onlyWinterTime: true
 # 2C - Somlyóbánya - Füleki úti körforgalom - Helyi autóbusz-állomás
 - line: 6
   time: "05:55"
@@ -149,41 +163,53 @@ departures:
 # 2T - Helyi autóbusz-állomás - Somlyóbánya, üdölőtelep
 - line: 7
   time: "06:35"
-  day: "FREE_DAY_AND_DAY_OF_REST" #csny
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlySummerTime: true
 - line: 7
   time: "08:20"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 - line: 7
   time: "14:30"
-  day: "FREE_DAY_AND_DAY_OF_REST" #csny
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlySummerTime: true
 - line: 7
   time: "15:35"
-  day: "WORK_DAY" #csny
+  day: "WORK_DAY"
+  onlySummerTime: true
 - line: 7
   time: "17:35"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 - line: 7
   time: "18:40"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 # 2T - Somlyóbánya, üdölőtelep - Helyi autóbusz-állomás
 - line: 8
   time: "08:40"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 - line: 8
   time: "15:55"
-  day: "WORK_DAY" #csny
+  day: "WORK_DAY"
+  onlySummerTime: true
 - line: 8
   time: "17:55"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 - line: 8
   time: "19:00"
-  day: "ALL_DAYS" #csny
+  day: "ALL_DAYS"
+  onlySummerTime: true
 - line: 8
   time: "06:55"
-  day: "FREE_DAY_AND_DAY_OF_REST" #csny
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlySummerTime: true
 - line: 8
   time: "14:50"
-  day: "FREE_DAY_AND_DAY_OF_REST" #csny
+  day: "FREE_DAY_AND_DAY_OF_REST"
+  onlySummerTime: true
 # 3 - Helyi autóbusz-állomás - Tesco - Hősök út
 - line: 9
   time: "04:50"
@@ -206,7 +232,8 @@ departures:
   day: "ALL_DAYS"
 - line: 10
   time: "07:45"
-  day: "WORK_DAY" #i
+  day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 10
   time: "17:30"
   day: "WORK_DAY"
@@ -306,8 +333,9 @@ departures:
   time: "06:10"
   day: "WORK_DAY"
 - line: 15
-  time: "07:10" #i
+  time: "07:10"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 15
   time: "09:45"
   day: "ALL_DAYS"
@@ -378,8 +406,9 @@ departures:
   day: "WORK_DAY"
 # 4A - Baglyasalja - Hősök út
 - line: 17
-  time: "07:25" #i
+  time: "07:25"
   day: "WORK_DAY"
+  onlySchoolDay: true
 # 5 - Helyi autóbusz-állomás - Idegér - Helyi autóbusz-állomás
 - line: 18
   time: "05:05"
@@ -439,14 +468,16 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 7 - Helyi autóbusz-állomás - Kórház - Fáy András körút - Losonci út - Helyi autóbusz-állomás
 - line: 21
-  time: "07:00" #t
+  time: "07:00"
   day: "WORK_DAY"
+  onlySchoolHoliday: true
 - line: 21
   time: "15:00"
   day: "WORK_DAY"
 - line: 21
-  time: "15:55" #t
+  time: "15:55"
   day: "WORK_DAY"
+  onlySchoolHoliday: true
 - line: 21
   time: "16:35"
   day: "WORK_DAY"
@@ -464,8 +495,9 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 7 - Helyi autóbusz-állomás - Forgáchtelep - Kórház - Fáy András körút - Losonci út - Helyi autóbusz-állomás
 - line: 22
-  time: "06:50" #i
+  time: "06:50"
   day: "WORK_DAY"
+  onlySchoolDay: true
 # 7 - Helyi autóbusz-állomás - Kórház - Fáy András körút - Losonci út - Idegér - Helyi autóbusz-állomás
 - line: 73
   time: "10:35"
@@ -487,8 +519,9 @@ departures:
   time: "08:35"
   day: "WORK_DAY"
 - line: 24
-  time: "11:45" #t
+  time: "11:45"
   day: "WORK_DAY"
+  onlySchoolHoliday: true
 - line: 24
   time: "12:35"
   day: "WORK_DAY"
@@ -534,8 +567,9 @@ departures:
   time: "06:25" # (sugár útról???)
   day: "WORK_DAY"
 - line: 23
-  time: "11:40" #i
+  time: "11:40"
   day: "WORK_DAY"
+  onlySchoolDay: true
 # 7B - Helyi autóbusz-állomás - Losonci út - Fáy András körút - Kórház - Helyi autóbusz-állomás
 - line: 25
   time: "09:20"
@@ -545,7 +579,8 @@ departures:
   day: "WORK_DAY"
 - line: 25
   time: "15:55"
-  day: "WORK_DAY" #i
+  day: "WORK_DAY"
+  onlySchoolDay: true
 # 7C - Helyi autóbusz-állomás - Losonci út - Fáy András körút - Helyi autóbusz-állomás - Uzoni iskola
 - line: 27
   time: "07:20"
@@ -668,8 +703,9 @@ departures:
   time: "06:20"
   day: "WORK_DAY"
 - line: 37
-  time: "06:30" #i
+  time: "06:30"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 37
   time: "07:20"
   day: "ALL_DAYS"
@@ -697,7 +733,8 @@ departures:
   day: "WORK_DAY"
 - line: 42
   time: "13:50"
-  day: "WORK_DAY" #i
+  day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 42
   time: "14:25"
   day: "ALL_DAYS"
@@ -748,8 +785,9 @@ departures:
   time: "13:25"
   day: "WORK_DAY"
 - line: 69
-  time: "16:00" #i
+  time: "16:00"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 69
   time: "10:20"
   day: "FREE_DAY_AND_DAY_OF_REST"
@@ -767,14 +805,16 @@ departures:
   time: "14:10"
   day: "WORK_DAY"
 - line: 41
-  time: "14:35" #i
+  time: "14:35"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 41
   time: "16:05"
   day: "WORK_DAY"
 - line: 41
-  time: "16:45" #i
+  time: "16:45"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 41
   time: "17:05"
   day: "WORK_DAY"
@@ -839,8 +879,9 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 11B - Salgóbánya - Somoskő - Országhatár - Beszterce lakótelepi iskola - Helyi autóbusz-állomás
 - line: 43
-  time: "07:00" #i
+  time: "07:00"
   day: "ALL_DAYS"
+  onlySchoolDay: true
 # 11Y - Somoskőújfalu, országhatár - Helyi autóbusz-állomás - Hősok úti forduló
 - line: 72
   time: "06:45"
@@ -1256,21 +1297,25 @@ departures:
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 61 - Campingtelep - Zagyvaróna
 - line: 63
-  time: "06:35" #i
+  time: "06:35"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 63
   time: "15:40"
   day: "WORK_DAY"
 - line: 63
-  time: "16:05" #i
+  time: "16:05"
   day: "WORK_DAY"
+  onlySchoolDay: true
 # 61 - Zagyvaróna - Campingtelep
 - line: 62
   time: "07:05"
   day: "WORK_DAY"
+  onlySchoolDay: true
 - line: 62
-  time: "16:35" #i
+  time: "16:35"
   day: "WORK_DAY"
+  onlySchoolDay: true
 # 63 - Campingtelep - Helyi autóbusz-állomás - Csokonai út - Hősök út
 - line: 61
   time: "08:25"
