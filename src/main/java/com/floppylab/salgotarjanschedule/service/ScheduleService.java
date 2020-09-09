@@ -68,6 +68,7 @@ public class ScheduleService {
     private StopDeparture convertToStopDeparture(Departure departure, Long stop) {
         StopDeparture stopDeparture = new StopDeparture();
         stopDeparture.setLine(departure.getLine());
+        stopDeparture.setDepartureTime(departure.getTime());
 
         Line line = lineService.getLine(departure.getLine());
         int minutes = line.getStopDelays().stream().filter(t -> t.getStop() == stop).findFirst().get().getMinutes();

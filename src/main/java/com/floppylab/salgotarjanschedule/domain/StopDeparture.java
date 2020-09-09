@@ -15,4 +15,6 @@ public class StopDeparture {
 
     private LocalTime time;
 
+    private LocalTime departureTime;
+
 }

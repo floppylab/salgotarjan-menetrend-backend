@@ -1405,55 +1405,6 @@ departures:
   time: "12:10"
   day: "FREE_DAY_AND_DAY_OF_REST"
 # 63S - Hősök út - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep
-- line: 59
-  time: "07:00"
-  day: "WORK_DAY"
-- line: 59
-  time: "07:45"
-  day: "WORK_DAY"
-- line: 59
-  time: "09:00"
-  day: "WORK_DAY"
-- line: 59
-  time: "14:10"
-  day: "WORK_DAY"
-- line: 59
-  time: "15:10"
-  day: "WORK_DAY"
-- line: 59
-  time: "16:00"
-  day: "WORK_DAY"
-- line: 59
-  time: "17:25"
-  day: "WORK_DAY"
-- line: 59
-  time: "20:20"
-  day: "ALL_DAYS"
-- line: 59
-  time: "21:20"
-  day: "ALL_DAYS"
-- line: 59
-  time: "05:10"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "06:10"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "07:50"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "11:40"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "13:10"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "15:30"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-- line: 59
-  time: "18:20"
-  day: "FREE_DAY_AND_DAY_OF_REST"
-# 63S - Hősök út - Sugár út - Csokonai út - Helyi autóbusz-állomás - Campingtelep
 - line: 67
   time: "07:00"
   day: "WORK_DAY"
