@@ -28,8 +28,8 @@ public class DayService {
         if (localDate == null) {
             localDate = LocalDate.now(ZoneId.of("CET"));
         }
-        if (localDate.isBefore(LocalDate.of(2020, 9, 1))
-                || localDate.isAfter(LocalDate.of(2020, 12, 12))) {
+        if (localDate.isBefore(LocalDate.of(2020, 9, 1))) {
+//                || localDate.isAfter(LocalDate.of(2020, 12, 12))) {
             return Collections.emptyList();
         }
         DayInfo info = getDayInfo(localDate);
