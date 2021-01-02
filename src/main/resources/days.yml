@@ -5,47 +5,12 @@ days:
     summerTime: false
     schoolHoliday: false
 -
-    day: 2021-01-01
+    day: 2021-01-02
     dayType: FREE_DAY
     summerTime: false
     schoolHoliday: false
 -
     day: 2021-01-03
-    dayType: DAY_OF_REST
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-04
-    dayType: WORK_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-05
-    dayType: WORK_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-06
-    dayType: WORK_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-07
-    dayType: WORK_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-08
-    dayType: WORK_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-09
-    dayType: FREE_DAY
-    summerTime: false
-    schoolHoliday: false
--
-    day: 2021-01-10
     dayType: DAY_OF_REST
     summerTime: false
     schoolHoliday: false
@@ -170,7 +135,7 @@ days:
     summerTime: false
     schoolHoliday: false
 -
-    day: 2021-01-27
+    day: 2021-01-28
     dayType: WORK_DAY
     summerTime: false
     schoolHoliday: false
